@@ -12,7 +12,6 @@ const converterBitParaReal = () => {
 }
 const verMais = () => {
   if (document.getElementById('sobre').classList.contains("hidden")) {
-
     document.getElementById('sobre').classList.remove("hidden")
     document.getElementById('ler-mais').textContent = "ler menos"
 
